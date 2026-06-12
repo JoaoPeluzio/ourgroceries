@@ -114,10 +114,10 @@ const defaultSettings: AppSettings = {
   userName: 'Husband',
   partnerName: 'Wife',
   currentUserRole: undefined,
-  supabaseUrl: 'https://ofytudseazicitwxakkg.supabase.co',
-  supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9meXR1ZHNlYXppY2l0d3hha2tnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEyMDE2MjksImV4cCI6MjA5Njc3NzYyOX0.4DaZhmtto2MNnFpODARvwwpSuUxcDZW-6L6CST0p_zk',
-  geminiApiKey: 'YOUR_GEMINI_API_KEY_HERE',
-  isSyncEnabled: true,
+  supabaseUrl: process.env.EXPO_PUBLIC_SUPABASE_URL || '',
+  supabaseAnonKey: process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || '',
+  geminiApiKey: process.env.EXPO_PUBLIC_GEMINI_API_KEY || '',
+  isSyncEnabled: !!process.env.EXPO_PUBLIC_SUPABASE_URL,
 };
 
 export const useShoppingStore = create<ShoppingState>()(
