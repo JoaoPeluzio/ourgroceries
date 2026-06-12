@@ -44,3 +44,9 @@ yarn-error.*
 
 # walkthrough documentation
 walkthrough.md
+
+# template & agent configs
+.env.example
+AGENTS.md
+CLAUDE.md
+.claude/
