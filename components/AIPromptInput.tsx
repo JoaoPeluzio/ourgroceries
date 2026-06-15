@@ -9,7 +9,7 @@ import { VibeText } from './ui/Text';
 import { VibeInput } from './ui/Input';
 import { VibeCard } from './ui/Card';
 import { VibeButton } from './ui/Button';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 
 const isComplexInput = (text: string): boolean => {
   const t = text.toLowerCase().trim();

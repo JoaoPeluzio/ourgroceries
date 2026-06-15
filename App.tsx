@@ -10,7 +10,7 @@ import {
   Outfit_700Bold,
 } from '@expo-google-fonts/outfit';
 import { ShoppingCart, Archive, Settings } from 'lucide-react-native';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from './services/haptics';
 import * as Linking from 'expo-linking';
 import * as WebBrowser from 'expo-web-browser';
 

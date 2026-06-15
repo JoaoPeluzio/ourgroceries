@@ -8,7 +8,7 @@ import { VibeCard } from '../components/ui/Card';
 import { VibeInput } from '../components/ui/Input';
 import { VibeButton } from '../components/ui/Button';
 import { resetSupabaseClient, getSupabase, initializeRealtimeSync } from '../services/supabase';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 
 export const SettingsScreen: React.FC = () => {
   const { colors, theme, toggleTheme } = useTheme();

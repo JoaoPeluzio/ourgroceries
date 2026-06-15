@@ -17,7 +17,7 @@ import { VibeInput } from '../components/ui/Input';
 import { VibeButton } from '../components/ui/Button';
 import { VibeCard } from '../components/ui/Card';
 import { supabase, getSupabase } from '../services/supabase';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 import { registerForPushNotifications } from '../services/notifications';
 import * as Linking from 'expo-linking';
 import Constants from 'expo-constants';

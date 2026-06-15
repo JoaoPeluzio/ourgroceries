@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { Plus } from 'lucide-react-native';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 import { useShoppingStore } from '../store/useShoppingStore';
 import { useTheme } from '../hooks/useTheme';
 import { VibeText } from './ui/Text';

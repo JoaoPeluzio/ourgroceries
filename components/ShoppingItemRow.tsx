@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { View, StyleSheet, TouchableOpacity, Animated } from 'react-native';
 import Swipeable from 'react-native-gesture-handler/Swipeable';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 import { Check, Trash2, CheckCircle2, RotateCcw } from 'lucide-react-native';
 import { ShoppingItem } from '../types';
 import { VibeText } from './ui/Text';

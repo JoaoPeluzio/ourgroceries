@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, StyleSheet, ActivityIndicator, View, ViewStyle, StyleProp } from 'react-native';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../../services/haptics';
 import { useTheme } from '../../hooks/useTheme';
 import { VibeText } from './Text';
 

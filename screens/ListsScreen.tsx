@@ -10,7 +10,7 @@ import { VibeButton } from '../components/ui/Button';
 import { AIPromptInput } from '../components/AIPromptInput';
 import { SuggestionsBar } from '../components/SuggestionsBar';
 import { ShoppingListSection } from '../components/ShoppingListSection';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 
 export const ListsScreen: React.FC = () => {
   const { colors } = useTheme();

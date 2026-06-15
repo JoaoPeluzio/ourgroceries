@@ -5,7 +5,7 @@ import { useShoppingStore } from '../store/useShoppingStore';
 import { VibeText } from './ui/Text';
 import { VibeCard } from './ui/Card';
 import { ShoppingBag, Users } from 'lucide-react-native';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 import { registerForPushNotifications } from '../services/notifications';
 
 const { width } = Dimensions.get('window');

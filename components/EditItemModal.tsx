@@ -22,7 +22,7 @@ import {
   Sparkles,
   ShoppingBag,
 } from 'lucide-react-native';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 import { useTheme } from '../hooks/useTheme';
 import { VibeText } from './ui/Text';
 import { VibeInput } from './ui/Input';

@@ -5,7 +5,7 @@ import { useShoppingStore } from '../store/useShoppingStore';
 import { useTheme } from '../hooks/useTheme';
 import { VibeText } from '../components/ui/Text';
 import { VibeCard } from '../components/ui/Card';
-import * as Haptics from 'expo-haptics';
+import { Haptics } from '../services/haptics';
 
 export const ArchiveScreen: React.FC = () => {
   const { colors } = useTheme();
